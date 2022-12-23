@@ -5,6 +5,7 @@ import Dashboard from "pages/private/dashboard";
 // import Settings from "pages/private/settings";
 import EMailList from "pages/private/emailList";
 import TagList from "pages/private/tagList";
+import DomainList from "pages/private/domainList";
 
 export const PrivateRoutes = [
   { path: "/u/dashboard", exact: true, component: Dashboard },
@@ -12,4 +13,5 @@ export const PrivateRoutes = [
   // { path: "/u/orders", exact: true, component: OrdersList },
   { path: "/u/emailList", exact: true, component: EMailList },
   { path: "/u/tagList", exact: true, component: TagList },
+  { path: "/u/domainList", exact: true, component: DomainList },
 ];
